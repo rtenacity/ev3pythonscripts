@@ -9,7 +9,7 @@ leds = Leds()
 
 print(ir.driver_name, file=stderr)
 
-leds.all_off() # Needed, to stop the LEDs flashing
+leds.all_off() # To stop the LEDs flashing
 while True:
     if ir.proximity < 40*1.4: # To convert cm to proximity, multiply by 1.4
         leds.set_color('LEFT',  'RED')
