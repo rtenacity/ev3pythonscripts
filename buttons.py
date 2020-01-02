@@ -4,7 +4,7 @@ from time import sleep
 
 btn = Button()
 
-# Do something when state of any button changes:
+# Do something , come on when state of any button changes:
   
 def left(state):
     if state:
